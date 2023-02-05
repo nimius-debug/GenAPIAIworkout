@@ -91,6 +91,6 @@ function generatePrompt() {
   'upper back stretch', 'upward facing dog', 'v-sit on floor', 'walking high knees lunge', 
   'walking lunge', 'wheel run', 'wide hand push up', 
   'world greatest stretch', 'wrist circles'
-  from the list pick exacly 15 and try to not reapeat any, write them exacly how they are in the list
+  from the list pick exacly 15 and try to not reapeat any, write them exacly how they are in the list and dont number them
 `;
 }
