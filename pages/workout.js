@@ -78,7 +78,7 @@ export default function WorkoutPage() {
         <img src="/robot_icon.png" className={styles.icon} />
         <h3> 7 Minute Workout Generator AI </h3>
         <button onClick={generateWorkout}>
-        Activate Lasers
+        Generating workout
         </button>
         {loading && (
           <div>
@@ -91,7 +91,7 @@ export default function WorkoutPage() {
             return(
               <div key={d.id}>
                 <h2>{d.name}</h2>
-                <p>{d.gifUrl}</p>
+
                 <Image 
                     src={d.gifUrl} 
                     width={150} 
