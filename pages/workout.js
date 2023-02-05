@@ -46,7 +46,7 @@ export default function WorkoutPage() {
       
       //Rapid API calling
       if (workout){
-        const exercisesJson = await fetch("/api/test")
+        const exercisesJson = await fetch("/api/generate-gif")
         const exercisesData = await exercisesJson.json()
         console.log(exercisesData)
         const foundExercise = exercisesData.filter( e => data.result.includes(e.name))
